@@ -11,7 +11,7 @@ var shortDataProp = {
 function getIncorrectMarker(yVal){
   var markerProp = {
     enabled: true,
-    symbol: 'url(http://www.cottonafrica.com/images/cross.gif)',
+    symbol: 'url(../images/cross.gif)',
     height: 10,
     width: 10
   }
