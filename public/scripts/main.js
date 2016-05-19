@@ -970,7 +970,7 @@ $scope.dataSel = '0';
 
 'use strict';
 angular.module('starlab.services', [])
-.constant('baseURL', 'https://rare-category-analysis.herokuapp.com/')
+.constant('baseURL', '/')
 .factory('biradFactory', ['$resource', 'baseURL', function($resource, baseURL){
   var biradFac = {};
   biradFac.getChartObject = function(){
